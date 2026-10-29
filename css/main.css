@@ -350,12 +350,13 @@
   }
 
   #main .ai_chat {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     height: auto;
   }
 
   #main .ai_chat textarea {
-    height: 48px
+    height: 48px;
+    padding: 10px 12px;
   }
 }
 
