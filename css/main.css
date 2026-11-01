@@ -601,6 +601,12 @@
   color: rgba(247, 247, 247, 0.8);
   line-height: 1.4;
   text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 }
 
 #news .news-card .text-box span {
@@ -687,10 +693,6 @@
   }
 
   #news .news-card .text-box h4 {
-    font-size: 1.4rem;
-  }
-
-  #news .news-card .text-box p {
     font-size: 1.4rem;
   }
 
